@@ -1,0 +1,36 @@
+.Quadrado {
+            margin: 200px;
+            background-color: orange;
+            height: 200px;
+            width: 500px;
+            position: relative;
+}
+.Quadrado:before,
+.Quadrado:after {
+  content: "";
+  background-color: red;
+  height: 50px;
+  position: absolute;
+  width: 400px;
+  top: 30px;
+  left: -35px;
+  content: "Noticias";
+        font-family: Arial;
+        font-size: 20px;
+
+}
+.Triangulo {
+  margin: 200px;
+            position: absolute;
+            top: 55px;
+            left: -17px;
+           width: 0; 
+           height: 0; 
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 25px solid #cd5c5c;
+  transform: rotate(-45deg);
+}
+}
